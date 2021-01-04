@@ -84,7 +84,7 @@ def busModel(numId):
                     dbc.Col(
                         dbc.Card(dbc.CardBody(
                             [
-                                html.H4(f"{tpot_mae:,.0f} km",
+                                html.H4(f"{tpot_mae/1000:.2f} km",
                                         className="card-title"),
                                 html.P(
                                     "MAE del Modelo",
